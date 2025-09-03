@@ -33,6 +33,10 @@ People want a fast way to share short updates and discover content from people a
 
 ## Domain Model
 
+### Entity Relationship Diagram (ERD)
+
+![erd](chirp-erd.png)
+
 ### Users
 
 ```ruby
