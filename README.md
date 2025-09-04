@@ -37,6 +37,8 @@ People want a fast way to share short updates and discover content from people a
 
 ![erd](chirp-erd.png)
 
+[sample data spreadsheet](https://docs.google.com/spreadsheets/d/11qf4ncnp9AADKaI00CmwnPudIH3Mb35iAqdtxMOJAMY/edit?usp=sharing)
+
 ### Users
 
 ```ruby
@@ -58,7 +60,7 @@ class User
 end
 ```
 
-## Chirps
+### Chirps
 
 ```ruby
 # id
@@ -95,7 +97,7 @@ class Chirp
 end
 ```
 
-## Follow
+### Follow
 
 ```ruby
 # id
@@ -111,7 +113,7 @@ class Follow
 end
 ```
 
-## Like
+### Like
 
 ```ruby
 # id, user_id, chirp_id, created_at (unique index on [user_id, chirp_id])
