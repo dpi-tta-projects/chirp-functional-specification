@@ -140,3 +140,7 @@ DELETE /follows/:handle
 
 GET /search?q=… (chirps + hashtags + users)
 ```
+
+## Sketches / UI
+
+![](x-ui.png)
